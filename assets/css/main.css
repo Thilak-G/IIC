@@ -69,6 +69,16 @@ section {
 .section-bg {
   background-color: #eee;
 }
+#why-us {
+  background: url("../img/IIc/rewards.png");
+  background-repeat: no-repeat;
+   
+}
+/* images */
+.icon-box:hover #awa img {
+ 
+  transition: transform .5s ease !important;
+}
 
 .section-header {
   text-align: center;
