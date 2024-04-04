@@ -72,6 +72,7 @@ section {
 #why-us {
   background: url("../img/IIc/rewards.png");
   background-repeat: no-repeat;
+  background-size: cover;
    
 }
 /* images */
