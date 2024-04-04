@@ -778,7 +778,13 @@ section {
   margin: 0 0 30px 0;
   font-family: var(--font-secondary);
 }
-
+#why_card{
+  background: #949494;
+}
+#insider
+{
+  box-sizing: border-box;    
+}
 .why-us .icon-box p {
   font-size: 15px;
   color: #6c757d;
@@ -789,7 +795,18 @@ section {
     transform: scale(1.1);
   }
 }
-
+@media (min-width: 1200px) {
+  #why_card .icon-box:hover {
+    transform: scale(1.1);
+    background-color: #94b6df;
+  }
+}
+#ourmentors{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
