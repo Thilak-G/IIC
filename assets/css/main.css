@@ -70,7 +70,7 @@ section {
   background-color: #eee;
 }
 #why-us {
-  background: url("../img/IIc/rewards.png");
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0)), url(../img/stats-bg.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
    
