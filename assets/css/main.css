@@ -903,7 +903,7 @@ section {
 .stats-counter {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/IIc/iot.jpg") center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 @media (min-width: 1365px) {
@@ -1683,7 +1683,7 @@ section {
   font-size: 36px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color: #9f9e9e;
-  padding: 20px 0;
+  padding: 23px 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 30px;
