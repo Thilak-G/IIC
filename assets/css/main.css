@@ -897,6 +897,51 @@ section {
    font-size: 40px;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.events {
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 50%; /* Make the flip card container cover the entire section */
+  height: 60%; /* Make the flip card container cover the entire section */
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background:transparent; /* Front card background color */
+}
+
+.flip-card-back {
+  background-color: #165df500; /* Back card background color */
+  color: #181818;
+  transform: rotateY(180deg);
+}
+
+
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
@@ -1711,7 +1756,7 @@ section {
   text-align: center;
   font-size: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #165df5;
+  color: #ff8000;
   padding: 0px 0px;
   text-transform: uppercase;
   letter-spacing: 2px;
