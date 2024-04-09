@@ -39,7 +39,7 @@
 
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
-  width: 100%;
+  width: 90%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
@@ -1796,7 +1796,7 @@ section {
 }
 .section-heading1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color: #ff8000;
   padding: 0px 0px;
