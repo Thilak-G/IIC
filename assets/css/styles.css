@@ -16,37 +16,6 @@ section{
 body{
   background-color: #f9f8f6;
 }
-
-/*.newsfeed{
-background-image: url("./images/newsbg.png");
-   height: 100%;
-   width: 100%;
-     background-repeat: no-repeat;
-  background-size: cover;
-}
-#ourteam{
-background-image: url("./images/studentteambg.png");
- height: 100%;
-   width: 100%;
-        background-repeat: no-repeat;
-  background-size: cover;
-  } 
-#initiatives{
-background: url("./images/intiativesbg.png");
- height: 100%;
-   width: 100%;
-
- }  
-#achievements{
-background-image: url("./images/achievementbg.png");
- height: 100%;
-   width: 100%;
-  }
-#successstories{
-background-image: url("./images/successstories.png");
- height: 100%;
-   width: 100%;
-} */
 #mainhead{
     background-color:#040417;
      font-family: 'Merriweather', serif;
